@@ -81,7 +81,7 @@ rs-sbg-px { pointer-events: none }
 }
 
 .the_timeline_tester {
-	background:#e74c3c;
+	background:var(--buttonColor);
 	position:absolute;
 	top:0px;
 	left:0px;
@@ -1475,7 +1475,7 @@ rs-sbg canvas { overflow: hidden; z-index: 5; -webkit-backface-visibility:hidden
 
 
 .hglayerinfo				   {position: fixed;bottom: 0px;left: 0px;color: #FFF;font-size: 12px;line-height: 20px;font-weight: 600;background: rgba(0, 0, 0, 0.75);padding: 5px 10px;z-index: 2000;white-space: normal;}
-.hginfo 					   {position:absolute;top:-2px;left:-2px;color:#e74c3c;font-size:12px;font-weight:600; background:#000;padding:2px 5px;}
+.hginfo 					   {position:absolute;top:-2px;left:-2px;color:var(--buttonColor);font-size:12px;font-weight:600; background:#000;padding:2px 5px;}
 .indebugmode .rs-layer:hover {border:1px dashed #c0392b !important;}
 .helpgrid 					   {border:2px dashed #c0392b;position:absolute;top:0px;left:0px;z-index:0 }
 #revsliderlogloglog				{padding:15px;color:#fff;position:fixed; top:0px;left:0px;width:200px;height:150px;background:rgba(0,0,0,0.7); z-index:100000; font-size:10px; overflow:scroll;}

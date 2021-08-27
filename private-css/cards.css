@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+.botchi-container{
+    margin-top: 30px!important;
+    text-align: center;
+    font-family: 'Poppins';
+    background-color: white;
+    padding: 30px 10px;
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.103);
+
+}
+.botchi-container:hover{
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.103);
+    transition: 0.3s;
+}
+.botchi-container h2{
+    font-family: 'Great-Vibes';
+    font-size: 3rem;
+}
+.botchi-container p{
+    font-size: 1.3rem;
+    font-family: 'Poppins';
+}
+.container-fluid{
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px 15px;
+}
+
+/* Row */
+.botchi-row{
+    display: flex;
+    width: 100%;
+    
+}
+.botchi-col{
+    padding: 5px 10px;
+    margin: 5px 10px;
+}
+
+.botchi-col.l-4{
+    width: 33.33%;
+}
+
+
+/* card */
+.botchi-card{
+    position: relative;
+    min-height: 400px;
+    max-height: 400px;
+    padding-bottom: 10px;
+    transition: 0.3s;
+    cursor: pointer;
+    min-width: 260px;
+}
+.botchi-card:hover{
+    box-shadow: 4px 4px 40px rgba(0, 0, 0, 0.103);
+    transition: 0.3s;
+}
+.botchi-card,.botchi-card .botchi-card-img>img{
+    width: 100%;
+}
+.botchi-card, .botchi-card>.botchi-card-content{background: #fff;}
+.botchi-card .botchi-card-content{
+    text-align: center;
+    padding: 35px 15px;
+    max-width: 80%;
+    margin: auto;
+    position: absolute;
+    bottom: 10px;
+    left: 10%;
+    right: 10%;
+    z-index: 2;
+}
+.botchi-card .botchi-card-content h4{
+    font-size: 22px!important;
+    font-weight: bold;
+    margin: 5px;
+    line-height: 2;
+
+}
+.botchi-card .botchi-card-content p{
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 15px 20px 15px;
+}
+
+.botchi-card .botchi-card-content a.button{
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: rgb(145, 7, 145);
+    color: #fff;
+    transition: 0.3s background-color;
+}
+.botchi-card .botchi-card-content a.button:hover{
+    background-color: rgb(206, 176, 4);
+    transition: 0.3s background-color;
+}
+
+/* Large Screens */
+@media screen and (max-width:1024px) {botchi-
+    .botchi-row{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .botchi-col.m-6{
+        width: 33.33%!important;
+    }
+}
+/* Medium Screens - IPad */
+@media screen and (max-width:768px) {
+    .botchi-row{
+        width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .botchi-col.m-6{
+        width: 50%!important;
+    }
+}
+/* Small Screens-Phone */
+@media screen and (max-width:414px) {
+    .botchi-row{
+        margin: 0!important;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .botchi-col.s-12{
+        width: 100%!important;
+    }
+}
+
+/* testimonials */
+.testimonials{
+    /* background: linear-gradient(-100deg, white 50%, deeppink 50%); */
+    /* height: 400px; */
+    /* padding: 50px 20px; */
+}
+.testimonials img{
+    width: 80px;
+    height: 80px;
+}
+.testimonials .carousel-indicators{
+    background: red;
+}
